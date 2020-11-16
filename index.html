@@ -77,10 +77,10 @@
   <nav class="navbar navbar-dark bg-primary">
     <ul style="list-style: none;">
       <li class="list" >Home</li>
-      <li class="list" ><a href="/resume.html">Resume</a></li>
-      <li class="list" ><a href="https://github.com/tukarambahir?tab=repositories">Github Repository</a> </li>
-      <li class="list" ><a href="https://github.com/tukarambahir?tab=repositories">GitLab Repository</a> </li>
-      <li class="list" ><a href="https://www.linkedin.com/in/tukaram-bahir-88ab7170/">Linkdin Link</a> </li>
+      <li class="list" ><a  target="blank" href="/resume.html">Resume</a></li>
+      <li class="list" ><a target="blank" href="https://github.com/tukarambahir?tab=repositories">Github Repository</a> </li>
+      <li class="list" ><a target="blank" href="https://github.com/tukarambahir?tab=repositories">GitLab Repository</a> </li>
+      <li class="list" ><a target="blank" href="https://www.linkedin.com/in/tukaram-bahir-88ab7170/">Linkdin Link</a> </li>
     </ul>
   </nav>
     
@@ -99,7 +99,7 @@
 
               </div>
              </a>
-             <a style="color: black;" class="anchor" href="https://github.com/tukarambahir?tab=repositories">
+             <a target="blank" style="color: black;" class="anchor" href="https://github.com/tukarambahir?tab=repositories">
               <div style="margin-left: 15px;" class="lb">GitHub Repository</div>
             <div class="resume">
               
@@ -108,7 +108,7 @@
 
             </div>
            </a>
-           <a style="color: black;" class="anchor" href="https://www.linkedin.com/in/tukaram-bahir-88ab7170/">
+           <a target="blank" style="color: black;" class="anchor" href="https://www.linkedin.com/in/tukaram-bahir-88ab7170/">
             <div style="margin-left: 30px;" class="lb">Linkdin</div>
           <div class="resume">
             
@@ -124,8 +124,7 @@
                 <div> Name : Tukaram Ashok Bahir </div>
                 <div> Education : BE Mechanical</div>
                 <div>Testing a Github Website feature </div>
-                <button class="btn btn-success">Submit</button>
-               
+                <button onclick="func()" class="btn btn-success">Submit</button>               
 
             </div>
             <div class="col-md-4">
@@ -152,7 +151,11 @@
         </table>
 
     </div>
-
+<script>
+  function func(){
+    window.alert("Thanks for showing intrested in My profile ")
+  }
+</script>
 
 </body>
 </html>
