@@ -18,6 +18,59 @@
     display: inline-block;
     padding-right: 50px;
   }
+  a{
+    color: white;
+  }
+  .resume{
+    margin-top: 50px;
+    width: 200px;
+    height: 70px;
+    background-color: coral;
+  
+    display: relative;
+
+  }
+  .cut1{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    margin-left: 140px;
+    display: relative;
+    position: absolute;
+    transform: rotate(45deg);
+    margin-top: -5px;
+  }
+  .cut2{
+    width: 40px;
+    height: 80px;
+    margin-left: 165px;
+    margin-top: 20px;
+  
+    background-color: white;
+    display: relative;
+    position: absolute;
+    transform: rotate(45deg);
+  }
+  .anchor{
+
+    display: inline-block;
+   
+
+  }
+  .lb{
+    position: absolute;
+    display: inline-block;
+    margin-top: 75px;
+    margin-left: 40px;
+
+  }
+
+  .anchor:hover{
+   
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  
 </style>
 <body>
   
@@ -34,7 +87,27 @@
 
 
         <div class="row">
-            <div class="col-md-4"></div>
+            <div class="col-md-4 dir"> 
+              <div></div>
+              <a style="color: black;" class="anchor" href="/resume.html">
+                <div class="lb">Resume</div>
+              <div class="resume">
+                
+                <div class="cut1"></div>
+                <div class="cut2"></div>
+
+              </div>
+             </a>
+             <a style="color: black;" class="anchor" href="/resume.html">
+              <div style="margin-left: 15px;" class="lb">GitHub Repository</div>
+            <div class="resume">
+              
+              <div class="cut1"></div>
+              <div class="cut2"></div>
+
+            </div>
+           </a>
+            </div>
             <div class="col-md-4">
                 <h1>Info</h1>
 
@@ -48,6 +121,8 @@
                 <img  src="/image.jpeg"  alt="tukaram bahir">
             </div>
         </div>
+        &nbsp;
+        &nbsp;
         <table class="table table-striped table-bordered">
             <thead>
                 <tr>
